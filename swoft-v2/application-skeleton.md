@@ -1,4 +1,4 @@
-# Application Skeleton
+# Swoft Skeleton
 
 ## Application Skeleton
 
