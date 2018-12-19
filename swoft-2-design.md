@@ -1,3 +1,4 @@
-# swoft 2.0 design
+# Swoft 2.0 Design
 
+## Components Design
 
