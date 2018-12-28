@@ -59,6 +59,8 @@ return [
 
 ### config example
 
+- use php:
+
 ```php
 [
     'db' => [
@@ -69,6 +71,8 @@ return [
     ],
 ];
 ```
+
+- use yaml:
 
 ```yaml
 db:
