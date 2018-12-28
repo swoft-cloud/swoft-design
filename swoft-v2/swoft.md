@@ -5,7 +5,7 @@
 3. 全协程，核心化，易扩展，简洁易用。
 4. 支持swoole 4+, php 7.1+
 5. \> 90% 的单元测试覆盖率
-6. 更丰富的demo和文档说明
+6. 更丰富的 demo 和文档说明
 
 
 ## 历史包袱
@@ -56,7 +56,9 @@
 | udp-server | UDP服务组件 |
 | ws-server | Websocket服务组件 |
 | http-server | HTTP服务组件 |
-| rpc-server | RPC服务组件 |
+| rpc | RPC核心组件 |
+| rpc-server | RPC服务端组件 |
+| rpc-client | RPC客户端组件 |
 | task | 任务组件 |
 | i18n | 国际化组件 |
 | database | 数据库组件 |
@@ -173,7 +175,7 @@ class Xxx
 }
 ```
 
-#### aop
+#### AOP
 
 切面编程组件，采用AST抽象语法树,使用和1.x基本一致。
 
