@@ -1,8 +1,8 @@
 # swoft-design
 
-swoft framework design
+swoft framework design draft
 
-- [swoft 2.0](swoft-2-design.md)
+- [swoft 2.0](swoft-v2/README.md)
 
 ## 开发规范
 
