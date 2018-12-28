@@ -49,9 +49,13 @@ return [
 'config' => [
     // 指定使用格式，这会在 config 目录下加载指定后缀的配置文件
     'format' => 'yaml', // json php ...
-    // 'readonly' => false, // true
-    'priority' => 'file', // file: 先加载 'files' 的配置 dir: 先加载 config 目录的数据
-    'files' => [ // 允许加载指定文件 or URL
+    // 'readonly' => false, // true 
+    // 优先级设置 
+    // file: 先加载 'files' 的配置 
+    // dir: 先加载 config 目录的数据
+    'priority' => 'file', 
+    // 允许加载指定文件 or URL
+    'files' => [ 
         '/path/to/config.json',
         'http://abc.com/config.json', // 待定
     ],
