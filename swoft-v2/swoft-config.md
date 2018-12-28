@@ -47,6 +47,7 @@ return [
 
 ```php
 'config' => [
+    // 指定使用格式，这会在 config 目录下加载指定后缀的配置文件
     'format' => 'yaml', // json php ...
     // 'readonly' => false, // true
     'priority' => 'file', // file: 先加载 'files' 的配置 dir: 先加载 config 目录的数据
