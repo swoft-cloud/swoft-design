@@ -1,7 +1,8 @@
 # interface refer
 
-```text
+## context
 
+```text
 ContextInterface {
     public function has();
     public function get();
@@ -26,6 +27,17 @@ class SocketContext implements ContextInterface
     public function getRequest(): psr7 request;
 }
 
+// 全局
+SwoftContext::get();
+
+// 运行时的
+RuntimeContext::get();
+```
+
+## server
+
+```text
+
 ServerInterface {
     public function destroyContext();
 }
@@ -39,13 +51,9 @@ HttpServerInterface {
 }
 
 WebSocketServerInterface {
-    public function handleHandsnke(psr7 request, psr7 response): psr7 response;
-    public function handleMessage(psr7 request, psr7 response): psr7 response;
+    public function handleHandshake(psr7 request, psr7 response): psr7 response;
+    public function handleOpen(conn Connection);
+    public function handleMessage(conn Connection);
+    public function handleClose(conn Connection);
 }
-
-// 全局
-SwoftContext::get();
-
-// 运行时的
-RuntimeContext::get();
 ```
