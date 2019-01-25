@@ -33,6 +33,8 @@ ApplicationContext::get();
 
 // 运行时的
 RuntimeContext::get();
+ContextStack::get();
+ContextHeap::get();
 ```
 
 ## server
