@@ -29,6 +29,7 @@ class SocketContext implements ContextInterface
 
 // 全局
 SwoftContext::get();
+ApplicationContext::get();
 
 // 运行时的
 RuntimeContext::get();
