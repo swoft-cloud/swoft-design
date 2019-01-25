@@ -1,5 +1,25 @@
 # interface refer
 
+## context manager
+
+```php
+
+ContextManagerInterface {
+    public function has(): bool;
+    public function get(): ContextInterface;
+    public function set(string name, ctx ContextInterface);
+    public function destroy();
+}
+
+ApplicationContext implements ContextManagerInterface
+{
+}
+
+SwoftContext implements ContextManagerInterface
+{
+}
+```
+
 ## context
 
 ```text
@@ -33,7 +53,7 @@ ApplicationContext::get();
 
 // 运行时的
 RuntimeContext::get();
-ContextStack::get();
+SwoftContext::get();
 ContextHeap::get();
 ```
 
