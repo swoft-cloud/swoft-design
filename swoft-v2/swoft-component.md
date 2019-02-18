@@ -35,7 +35,7 @@ use Swoft\WebSocket\Server\Swoole\MessageListener;
  * Class AutoLoader
  *
  * @since 2.0
- * @package Swoft\WebSocket\Server\Event
+ * @package Swoft\WebSocket\Server
  */
 class AutoLoader extends SwoftComponent
 {
