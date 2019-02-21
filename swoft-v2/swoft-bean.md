@@ -1,6 +1,6 @@
 # bean
 
-2.0 支持4中生命周期类型的bean:
+swoft 2.0 支持4中生命周期类型的bean:
 
 - `SINGLETON` 全局单例
 - `PROTOTYPE` 工厂模式，每次是新的bean对象
