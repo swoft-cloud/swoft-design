@@ -7,8 +7,8 @@ swoft.server.*
 swoft.process.*
 swoft.pool.*
 
-swoft.http.beforeRequest
-swoft.http.afterRequest
+swoft.http.request.before
+swoft.http.request.after
 swoft.db.start
 swoft.db.after
 swoft.cache.start
