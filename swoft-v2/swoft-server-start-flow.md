@@ -24,6 +24,7 @@ new SwoftApplication(init, add processor)
         -> Running by input command
             -> Server command(start server)
                 -> Main server start
+                -> ...
             -> Other command ... exec 
 End
 ```
