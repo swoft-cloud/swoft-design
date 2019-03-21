@@ -22,7 +22,7 @@
 2. bean新增别名支持
 3. 配置支持env/yaml
 4. 异常处理优化
-5. ORM重构，大体使用和laravel一样(不支持实体关系)
+5. ORM重构，大体使用和laravel一样(不支持实体关联关系)
 6. RPC支持协议扩展，默认支持json
 7. config支持，pull/push/本地文件三种方式
 8. sgo()函数，替代系统go函数
