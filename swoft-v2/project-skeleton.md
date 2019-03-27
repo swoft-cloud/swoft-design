@@ -48,24 +48,3 @@
 ```
 
 > render by `tree -L 2 -F --dirsfirst`
-
-## Component Skeleton
-
-```text
-├── src/
-│   ├── Annotation/  -------- 组件注解类定义
-│   ├── Concern/
-│   ├── Contract/
-│   ├── Exception/
-│   ├── Helper/
-│   ├── Listener/
-│   ├── AutoLoader.php  -------- 组件扫描等信息培训
-├── test/   ------ 单元测试代码目录
-│   ├── case/
-│   └── bootstrap.php
-├── LICENSE
-├── README.md
-├── composer.json
-└── phpunit.xml
-```
-
