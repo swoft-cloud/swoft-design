@@ -29,6 +29,8 @@ new SwoftApplication(init, add processor)
 Stop
 ```
 
+> 关于组件的注册搜集可以参看 [组件设计](swoft-component.md)
+
 ## 服务器启动流程
 
 ```text
