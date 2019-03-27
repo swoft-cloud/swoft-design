@@ -1,19 +1,26 @@
-# Swoft 2.0 Design
+# Components Design
 
-## Components Design
-
-## Directory structure
+## Component Skeleton
 
 ```text
-my-component/
-  src/
-    Annotation/
-    ... ...
-    AutoLoader.php
-  test/
-  composer.json
-  README.md
+├── src/
+│   ├── Annotation/  -------- 组件注解类定义
+│   ├── Concern/
+│   ├── Contract/
+│   ├── Exception/
+│   ├── Helper/
+│   ├── Listener/
+│   ├── AutoLoader.php  -------- 组件扫描等信息培训
+├── test/   ------ 单元测试代码目录
+│   ├── case/
+│   └── bootstrap.php
+├── LICENSE
+├── README.md
+├── composer.json
+└── phpunit.xml
 ```
+
+## AutoLoader 示例
 
 `AutoLoader.php` example: 
 
