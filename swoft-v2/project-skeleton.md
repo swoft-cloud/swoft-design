@@ -7,7 +7,8 @@
 ```text
 ├── app/   ------ 应用代码目录
 │   ├── Aspect/
-│   ├── Command/  ------ 命令行代码目录
+│   ├── Console/  ------ 命令行代码目录
+│   │   ├── Command/
 │   ├── Http/     ------ HTTP 代码目录
 │   │   ├── Controller/
 │   │   └── Middleware/
