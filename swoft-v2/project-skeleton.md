@@ -6,22 +6,25 @@
 
 ```text
 ├── app/   ------ 应用代码目录
-│   ├── Aspect/
-│   ├── Console/  ------ 命令行代码目录
+│   ├── Annotation/   ------- AOP 切面
+│   ├── Aspect/       ------- AOP 切面
+│   ├── Console/      ------ 命令行代码目录
 │   │   ├── Command/
-│   ├── Http/     ------ HTTP 代码目录
+│   ├── Http/         ------ HTTP 代码目录
 │   │   ├── Controller/
 │   │   └── Middleware/
 │   ├── Helper/
 │   │   └── Functions.php
-│   ├── Listener/   ------ 事件监听器目录
-│   ├── Model/   ------ 模型、逻辑等代码目录(这些层并不限定，根据需要使用)
+│   ├── Listener/     ------ 事件监听器目录
+│   ├── Model/        ------ 模型、逻辑等代码目录(这些层并不限定，根据需要使用)
 │   │   ├── Dao/
 │   │   ├── Data/
-│   │   └── Logic/
-│   ├── Rpc/
+│   │   ├── Logic/
+│   │   └── Entity/
+│   ├── Rpc/          ------ RPC 代码目录
+│   │   └── Service/
 │   │   └── Middleware/
-│   ├── WebSocket/  ------ WebSocket 代码目录
+│   ├── WebSocket/     ------ WebSocket 代码目录
 │   │   ├── Chat/
 │   │   ├── Middleware/
 │   │   └── ChatModule.php
@@ -32,8 +35,8 @@
 │   ├── bootstrap.php
 │   └── swoft   ------ swoft 入口文件
 ├── config/     ------ 应用配置目录
-│   ├── base.php
-│   └── db.php
+│   ├── base.php  --- 基础配置
+│   └── db.php
 ├── public/     ------ WEB可访问目录
 ├── resource/   ------ 应用相关资源目录
 │   ├── languages/
@@ -41,7 +44,7 @@
 ├── runtime/    ------ 临时文件目录(日志、上传文件、文件缓存等)
 ├── test/       ------ 单元测试代码目录
 │   └── bootstrap.php
-├── changelog.md
+├── CHANGELOG.md
 ├── composer.json
 ├── composer.lock
 ├── phar.build.inc
