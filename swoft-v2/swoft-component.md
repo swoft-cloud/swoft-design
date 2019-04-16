@@ -5,6 +5,7 @@
 ```text
 ├── src/
 │   ├── Annotation/  -------- 组件注解类定义
+│   ├── Bean/         ------- 一些具有独立功能的class bean
 │   ├── Concern/
 │   ├── Contract/
 │   ├── Exception/
