@@ -6,10 +6,13 @@
 
 ```text
 ├── app/   ------ 应用代码目录
-│   ├── Annotation/   ------- AOP 切面
+│   ├── Annotation/   ------- 定义注解相关
 │   ├── Aspect/       ------- AOP 切面
+│   ├── Bean/         ------- 一些具有独立功能的class bean
 │   ├── Console/      ------ 命令行代码目录
 │   │   ├── Command/
+│   ├── Exception/      ------ 定义异常类目录
+│   │   └── Handler/     ------ 定义异常处理类目录
 │   ├── Http/         ------ HTTP 代码目录
 │   │   ├── Controller/
 │   │   └── Middleware/
