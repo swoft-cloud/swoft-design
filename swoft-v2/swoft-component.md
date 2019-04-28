@@ -5,9 +5,9 @@
 ```text
 ├── src/
 │   ├── Annotation/  -------- 组件注解类定义
-│   ├── Bean/         ------- 一些具有独立功能的class bean
-│   ├── Concern/
-│   ├── Contract/
+│   ├── Bean/         ------- 一些具有独立功能的 class bean
+│   ├── Concern/      ------- traits classes
+│   ├── Contract/     ------- interface classes
 │   ├── Exception/
 │   ├── Helper/
 │   ├── Listener/
