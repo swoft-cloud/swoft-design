@@ -13,7 +13,8 @@
 │   ├── Listener/
 │   ├── AutoLoader.php  -------- 组件扫描等信息培训
 ├── test/   ------ 单元测试代码目录
-│   ├── case/
+│   ├── unit/
+│   ├── testing/
 │   └── bootstrap.php
 ├── LICENSE
 ├── README.md
